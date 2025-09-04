@@ -1,0 +1,72 @@
+/* Admin - Add Room Form Styles */
+
+.add-room-page {
+  background: var(--accent-white);
+}
+
+.add-room-content {
+  padding: var(--spacing-xl);
+  margin-left: 280px; /* account for fixed AdminSidebar width */
+  margin-top: 70px;   /* account for top navbar height */
+  width: 100%;
+}
+
+.form-card {
+  background: var(--accent-white);
+  border: 1px solid var(--accent-gray-200);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: var(--spacing-xl);
+}
+
+.form-title {
+  margin: 0 0 var(--spacing-md) 0;
+  color: var(--text-dark);
+}
+
+.form-group {
+  margin-bottom: var(--spacing-md);
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: var(--spacing-xs);
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--accent-gray-200);
+  border-radius: var(--radius-md);
+  background: var(--accent-white);
+  font-family: var(--font-primary);
+}
+
+.form-textarea { min-height: 120px; resize: vertical; }
+
+.form-file { display: block; }
+
+.facilities-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 8px 16px;
+  padding: 12px;
+  border: 1px solid var(--accent-gray-200);
+  border-radius: var(--radius-md);
+  background: var(--accent-gray-50);
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn-primary { box-shadow: var(--shadow-sm); }
+.back-btn { padding: 10px 16px; }
+
+

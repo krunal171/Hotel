@@ -1,0 +1,33 @@
+/* Admin - Edit Room Styles */
+
+.edit-room-page { background: var(--accent-white); }
+.edit-room-content {
+  margin-left: 280px; /* fixed sidebar */
+  margin-top: 70px;   /* navbar */
+  padding: var(--spacing-xl);
+  width: 100%;
+}
+.form-card {
+  background: var(--accent-white);
+  border: 1px solid var(--accent-gray-200);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: var(--spacing-xl);
+  max-width: 700px;
+  margin: 0 auto;
+}
+.form-title { margin: 0 0 var(--spacing-md) 0; color: var(--text-dark); }
+.form-group { margin-bottom: var(--spacing-md); }
+.form-group label { display: block; margin-bottom: var(--spacing-xs); font-weight: 500; color: var(--text-dark); }
+.form-input, .form-select, .form-textarea, .form-file {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--accent-gray-200);
+  border-radius: var(--radius-md);
+  background: var(--accent-white);
+}
+.form-textarea { min-height: 120px; resize: vertical; }
+.image-list { display: flex; gap: 10px; margin-bottom: 10px; }
+.image-thumb { width: 80px; height: 80px; object-fit: cover; border-radius: 5px; }
+.form-actions { display: flex; gap: 10px; margin-top: var(--spacing-sm); }
+

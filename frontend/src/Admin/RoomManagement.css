@@ -1,0 +1,115 @@
+/* Admin - Room Management Styles */
+
+.room-management {
+  margin-left: 280px;
+  padding: var(--spacing-xl);
+  width: 100%;
+  margin-top: 60px;
+  background: var(--accent-white);
+}
+
+.rm-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-lg);
+  border-bottom: 1px solid var(--accent-gray-200);
+  padding-bottom: var(--spacing-md);
+}
+
+.rm-title {
+  margin: 0;
+  color: var(--text-dark);
+}
+
+.table-card {
+  background: var(--accent-white);
+  border: 1px solid var(--accent-gray-200);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table thead th {
+  background: var(--accent-gray-50);
+  color: var(--text-dark);
+  text-align: left;
+  padding: 14px 16px;
+  font-weight: 600;
+  border-bottom: 1px solid var(--accent-gray-200);
+}
+
+.admin-table tbody td {
+  padding: 14px 16px;
+  vertical-align: top;
+  border-bottom: 1px solid var(--accent-gray-200);
+  color: var(--text-medium);
+}
+
+.admin-table tbody tr:nth-child(odd) {
+  background: var(--accent-gray-50);
+}
+
+.admin-table tbody tr:hover {
+  background: #eef2ff; /* subtle blue hover */
+}
+
+.image-thumbs {
+  display: flex;
+  gap: 8px;
+  padding: 6px;
+  border: 1px dashed var(--accent-gray-200);
+  border-radius: var(--radius-md);
+  background: var(--accent-white);
+}
+
+.image-thumb {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-edit {
+  background: #16a34a;
+  color: var(--accent-white);
+  padding: 10px 12px;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+}
+
+.btn-edit:hover {
+  background: #15803d;
+}
+
+.btn-delete {
+  background: #dc2626;
+  color: var(--accent-white);
+  padding: 10px 12px;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background: #b91c1c;
+}
+
+.no-facilities {
+  color: #64748b;
+  font-style: italic;
+}
+
+

@@ -1,0 +1,45 @@
+/* Manage Bookings - Action Buttons */
+
+.booking-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn-view {
+  background: #16a34a;
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 8px 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-view:hover { background: #15803d; }
+
+.btn-pdf {
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 8px 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-pdf:hover { background: #1d4ed8; }
+
+.btn-delete {
+  background: #dc2626;
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 8px 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-delete:hover { background: #b91c1c; }
+
+
